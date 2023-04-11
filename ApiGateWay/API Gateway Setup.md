@@ -1,9 +1,13 @@
 # API Gateway Setup
 
 Create resource with CORS
+
 Create POST endpoint
+
    a. Integrate with Lambda
+
    i. Add body mapping template for application/x-www-form-url-encoded
+
 	{
 
             "httpMethod": "POST",
@@ -41,8 +45,8 @@ Create POST endpoint
         }
 
 b. Modify Method Response/Integration Response to return 204 status code(Optional)
-{
 
+{
   "httpMethod": "POST",
   "body":{
       "vote" : "INDIA"
