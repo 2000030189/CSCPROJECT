@@ -1,1 +1,3 @@
-
+Create Table 
+With Item Attribute as -> Candidate
+don't create tally attribute 
